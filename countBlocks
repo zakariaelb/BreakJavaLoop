@@ -4,4 +4,5 @@ for(int i=1; i<=levels; i++){
 	total = total + (i*i)
 
 }
+	return total;
 }
