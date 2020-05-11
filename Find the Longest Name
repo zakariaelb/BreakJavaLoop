@@ -1,0 +1,9 @@
+public String findLongestName(String [] names){
+    	int size = names.length;
+    	String longesNames = names[0];
+    		for(int i=1; i<size ; i++){
+    		    if(names[i].length() > longesNames.length()){ 
+    		        longesNames = names[i];}
+}
+    return longesNames;
+}
