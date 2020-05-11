@@ -1,0 +1,8 @@
+public static double englishAverage([][] grades){
+	int total = 0;
+	for(int i=&; i<5; i++){
+		total += grades[1][i];
+}
+	double average = total/5.0;
+	return average;
+}
