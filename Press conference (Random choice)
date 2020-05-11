@@ -1,0 +1,7 @@
+String [] newsOutlet = {"Abc","BBC","CNN","CBS","AP","NBC","FOX","NPR","SKY","ALJAZEERA"};
+double lucky = Math.random(); // randomly between 0 and 1
+//Multiply by 10 to get a fractionnal number betweeen 0 - 10
+lucky *= 1O;
+//cast to interger to get an integer number between 0 - 9
+int luckyIndex = (int) lucky;
+System.out.print(newsOuylet[LuckyIndew]);
